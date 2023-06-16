@@ -1,5 +1,5 @@
 body{
-    background-color: #e4e6eb;
+    background-color: #fff;
     font-family: 'Assistant', sans-serif;
     color: #071c4d;
 }
@@ -219,6 +219,7 @@ header{
             font-weight: 300;
             font-size: 26px;
             color: #6e6e6e;
+            min-height: 180px;
         }
 
         .trip-to{
@@ -230,6 +231,24 @@ header{
         hr{
             margin-left: -20px;
             margin-right: -20px;
+        }
+    }
+
+    .btn-get-started{
+        background-color: #ff9e53;
+        color: #ffffff;
+        &:hover{
+            background-color: #ffaa69;
+            color: #ffffff;
+        }
+    }
+
+    .btn-need-help{
+        background-color: #f2f2f2;
+        color: #c3c3c3;
+        &:hover{
+            background-color: #fafafa;
+            color: #c3c3c3;
         }
     }
 }
